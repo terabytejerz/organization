@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Vigilantes Nocturnes</title>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<!--[if IE 5]>
+<style type="text/css"> 
+/* place css box model fixes for IE 5* in this conditional comment */
+#sidebar1 { width: 230px; }
+</style>
+<![endif]--><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+#sidebar1 { padding-top: 30px; }
+#mainContent { zoom: 1; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]--></head>
+
+<body>
+<!-- begin #container -->
+<div id="container">
+    <!-- begin #header -->
+    <div id="header">
+        <div class="logoContainer">
+            <div class="logo">Vigilantes <span>Club</span></div>
+          
+        </div>
+        <!-- begin #navcontainer -->
+        <div id="navcontainer">
+            <ul id="navlist">
+                <li id="active"><a href="#" id="current">Home</a></li>
+                <li><a href="#">Join Now</a></li>
+                <li><a href="#">Donate</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">News</a></li>
+
+            </ul>
+        </div>
+        <!-- end #navcontainer -->
+    </div>
+    <!-- end #header -->
+    <div class="headerPic"><h2><span>Vigilantes</span>NOCTURNES</h2></div>
+  
+    </div>
+   <section>
+<form id=payment>
+    <fieldset>
+        <ol>
+            <li>
+                <label for=name>Name</label>
+ 
+                <input id=name name=name type=text placeholder="First and last name" required autofocus />
+            </li>
+            <li>
+                <label for=email>Email</label>
+                <input id=email name=email type=email placeholder="example@domain.com" required />
+            </li>
+            <li>
+                <label for=phone>Phone</label>
+                <input id=phone name=phone type=tel placeholder="Eg. +14445556666" required />
+            </li>
+        </ol>
+    </fieldset>
+    <fieldset>
+        <legend>Delivery address</legend>
+        <ol>
+            <li>
+                <label for=address>Address</label>
+                <textarea id=address name=address rows=5 required>
+                </textarea>
+            </li>
+            <li>
+                <label for=postcode>Post Code</label>
+                <input id=postcode name=postcode type=text required />
+ 
+            </li>
+            <li>
+                <label for=country>Country</label>
+                <input id=country name=country type=text required />
+            </li>
+        </ol>
+    </fieldset>
+    <fieldset>
+        <legend>Card Details</legend>
+        <ol>
+            <li>
+            <fieldset>
+                <legend>Card Type</legend>
+                <ol>
+                    <li>
+                        <input id=visa name=cardtype type=radio />
+                        <label for=visa>VISA</label>
+                    </li>
+                    <li>
+                        <input id=amex name=cardtype type=radio />
+                        <label for=amex>AmEx</label>
+                    </li>
+                    <li>
+                        <input id=mastercard name=cardtype type=radio />
+                        <label for=mastercard>Mastercard</label>
+                    </li>
+                </ol>
+            </fieldset>
+            </li>
+            <li>
+                <label for=cardnumber>Card Number</label>
+                <input id=cardnumber name=cardnumber type=number required />
+            </li>
+            <li>
+                <label for=secure>Security Code</label>
+                <input id=secure name=secure type=number required />
+            </li>
+            <li>
+                <label for=namecard>Name on Card</label>
+                <input id=namecard name=namecard type=text placeholder="Exact namne as on the card" required />
+            </li>
+        </ol>
+    </fieldset>
+    <fieldset>
+        <button type=submit>Buy It!</button>
+    </fieldset>
+</form>
+</section>
+    <br class="clearfloat" />
+</div>
+<!-- end #container -->
+<!-- begin #footer -->
+    <div id="footer">
+        <p>
+              
+        Copyright &copy; Vigilantes Club. Designed by <a href= title="">Vigilantes Team</a>
+        </p>
+    </div>
+<!-- end #footer -->
+</body>
+</html>
